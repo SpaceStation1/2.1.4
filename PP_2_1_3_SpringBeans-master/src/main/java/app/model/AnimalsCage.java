@@ -21,7 +21,6 @@ public class AnimalsCage {
         return this.timer;
     }
 
-    @Autowired
     public void whatAnimalSay() {
         System.out.println("Say:");
         System.out.println(animal.toString());
